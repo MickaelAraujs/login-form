@@ -33,15 +33,15 @@ input {
     padding: 5px;
     width: 250px;
     border: none;
-    border-left: 1px solid #FF7F00;
-    border-bottom: 1px solid #FF7F00;
+    border-left: 1px solid #2E8B57;
+    border-bottom: 1px solid #2E8B57;
     margin: 15px 20px 20px 20px;
     background-color: #F5F5F5;
 }
 
 #btn {
     margin-top: 15px;
-    background-color:#FF7F00;
+    background-color: #2E8B57;
     color: white;
     font-size: 14px;
     font-weight: bold;
