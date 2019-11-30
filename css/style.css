@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/nature-forest-trees-fog-4827.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Assistant', sans-serif;
+}
+
+.login-box {
+    width: 400px;
+    height: 400px;
+    background-color: #F5F5F5;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin: 130px auto;
+    position: relative;
+    box-shadow: 1px 6px 10px #111111;
+}
+
+form {
+    position: absolute;
+    top: 100px;
+    left: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px;
+    width: 250px;
+    border: none;
+    border-left: 1px solid #FF7F00;
+    border-bottom: 1px solid #FF7F00;
+    margin: 15px 20px 20px 20px;
+    background-color: #F5F5F5;
+}
+
+#btn {
+    margin-top: 15px;
+    background-color:#FF7F00;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+    padding: 10px;
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+p {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+#user::before {
+    content: url('../img/man-user.png');
+    padding-right: 5px;
+}
+
+#senha::before {
+    content: url('../img/lock.png');
+    padding-right: 5px;
+}
+
+.links {
+    position: absolute;
+    bottom: 35px;
+    left: 45px;
+}
+
+.links a {
+    margin: 10px;
+    text-decoration: none;
+    color: #828282;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
